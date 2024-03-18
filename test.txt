@@ -1,0 +1,31 @@
+import React from 'react'
+import { ImFolderUpload } from "react-icons/im";
+import './Myfiles.css'
+function Myfiles() {
+  return (
+    <div id='myfiles'>
+      <h3 className='myfilehead'>My Files</h3>
+      <div className="boxes">
+        <div className="box">
+          <div className="drag">
+              <ImFolderUpload className='dragimg' />
+              <h4 className='draghead'>Drag and Drop</h4>
+              <p className='dragp'>Upload Your File</p>
+              <button className='dragbtn'>Browse files</button>
+          </div>
+        </div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+      </div>
+    </div>
+  )
+}
+
+export default Myfiles
